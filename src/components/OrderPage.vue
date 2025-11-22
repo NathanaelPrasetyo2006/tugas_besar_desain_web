@@ -38,7 +38,7 @@
       </p>
       <p class="mb-2">Keterangan:</p>
       <ul class="list-disc list-inside">
-        <li class="mb-2">Nama Pemesan</li>
+        <li class="mb-2">Nama Lengkap</li>
         <li class="mb-2">Nomor Kontak</li>
         <li class="mb-2">Jenis Roti</li>
         <li class="mb-2">Jumlah Roti</li>
@@ -46,6 +46,9 @@
         <li class="mb-2">Alamat Lengkap (Jika Diantar)</li>
         <li class="mb-2">Catatan Khusus (misalnya: request dekorasi/topping)</li>
       </ul>
+      <div class="p-8">
+        <OrderForm />
+      </div>
       <li class="font-bold mb-2">METODE PEMBAYARAN</li>
       <p class="mb-2">
         Konfirmasi pesanan akan diproses setelah pembayaran diterima. Kami menerima pembayaran
@@ -80,10 +83,8 @@
   </div>
 </template>
 
-<script>
-export default {
-  name: 'OrderPage',
-}
+<script setup>
+import OrderForm from './OrderForm.vue'
 </script>
 
 <style scoped></style>

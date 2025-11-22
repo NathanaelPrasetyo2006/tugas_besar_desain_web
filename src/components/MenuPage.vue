@@ -1,6 +1,6 @@
 <template>
   <div class="menu mx-6 my-4">
-    <h1 id="RotiSpesial" class="text-2xl font-bold">Roti Spesial</h1>
+    <h1 id="RotiSpesial" class="text-2xl font-bold scroll-mt-20">Roti Spesial</h1>
   </div>
   <div class="flex flex-row">
     <div class="flex flex-wrap gap-6 p-6">
@@ -33,7 +33,7 @@
     </div>
   </div>
   <div class="menu mx-6 my-4">
-    <h1 id="RotiAsinGurih" class="text-2xl font-bold">Roti Asin/Gurih</h1>
+    <h1 id="RotiAsinGurih" class="text-2xl font-bold scroll-mt-20">Roti Asin/Gurih</h1>
   </div>
   <div class="flex flex-row">
     <div class="flex flex-wrap gap-6 p-6">
@@ -66,7 +66,7 @@
     </div>
   </div>
   <div class="menu mx-6 my-4">
-    <h1 id="RotiManis" class="text-2xl font-bold">Roti Manis</h1>
+    <h1 id="RotiManis" class="text-2xl font-bold scroll-mt-20">Roti Manis</h1>
   </div>
   <div class="flex flex-row">
     <div class="flex flex-wrap gap-6 p-6">
@@ -99,7 +99,7 @@
     </div>
   </div>
   <div class="menu mx-6 my-4">
-    <h1 id="RotiTawar" class="text-2xl font-bold">Roti Tawar</h1>
+    <h1 id="RotiTawar" class="text-2xl font-bold scroll-mt-20">Roti Tawar</h1>
   </div>
   <div class="flex flex-row">
     <div class="flex flex-wrap gap-6 p-6">
@@ -133,15 +133,8 @@
   </div>
 </template>
 
-<script>
+<script setup>
 import TheCard from './TheCard.vue'
-
-export default {
-  name: 'MenuPage',
-  components: {
-    TheCard,
-  },
-}
 </script>
 
 <style scoped></style>

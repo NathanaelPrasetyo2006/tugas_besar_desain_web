@@ -39,8 +39,8 @@
 
         <!-- Instagram -->
         <a
-          href="https://www.instagram.com/hi._nathan/"
-          class="flex items-center mt-2 text-blue-700 hover:underline"
+          @click.prevent="showPopup = true"
+          class="flex items-center mt-2 text-blue-700 hover:underline cursor-pointer"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -63,6 +63,14 @@
           </svg>
           Instagram
         </a>
+        <the-pop-up
+          v-model="showPopup"
+          title="Perhatian"
+          message="Apakah Anda yakin ingin membuka Instagram?"
+          confirmText="Ya, Buka"
+          cancelText="Batal"
+          @confirm="bukaInstagram"
+        />
       </div>
 
       <!-- Kolom kanan -->
@@ -98,8 +106,13 @@
   </footer>
 </template>
 
-<script>
-export default {
-  name: 'TheFooter',
+<script setup>
+import { ref } from 'vue'
+import ThePopUp from './ThePopUp.vue'
+
+const showPopup = ref(false)
+
+function bukaInstagram() {
+  window.open('https://www.instagram.com/buayabakery/', '_blank')
 }
 </script>

@@ -59,10 +59,6 @@
   </div>
 </template>
 
-<script>
-export default {
-  name: 'KebijakanPrivasi',
-}
-</script>
+<script setup></script>
 
 <style scoped></style>

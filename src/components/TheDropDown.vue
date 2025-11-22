@@ -76,20 +76,8 @@
   </div>
 </template>
 
-<script>
+<script setup>
 import { RouterLink } from 'vue-router'
 import { Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/vue'
 import { ChevronDownIcon } from '@heroicons/vue/20/solid'
-
-export default {
-  name: 'TheDropDown',
-  components: {
-    RouterLink,
-    Menu,
-    MenuButton,
-    MenuItem,
-    MenuItems,
-    ChevronDownIcon,
-  },
-}
 </script>

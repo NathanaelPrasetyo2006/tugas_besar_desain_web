@@ -4,8 +4,4 @@
   </div>
 </template>
 
-<script>
-export default {
-  name: 'AboutPage',
-}
-</script>
+<script setup></script>

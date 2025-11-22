@@ -33,14 +33,8 @@
   </nav>
 </template>
 
-<script>
+<script setup>
 import TheDropDown from './TheDropDown.vue'
-export default {
-  name: 'TheNavbar',
-  components: {
-    TheDropDown,
-  },
-}
 </script>
 
 <style scoped></style>

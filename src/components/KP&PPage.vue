@@ -76,10 +76,6 @@
   </div>
 </template>
 
-<script>
-export default {
-  name: 'KebijakanPengembalianPembatalan',
-}
-</script>
+<script setup></script>
 
 <style scoped></style>

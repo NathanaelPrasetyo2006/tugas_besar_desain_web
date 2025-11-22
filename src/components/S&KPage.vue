@@ -66,10 +66,6 @@
   </div>
 </template>
 
-<script>
-export default {
-  name: 'SyaratKetentuan',
-}
-</script>
+<script setup></script>
 
 <style scoped></style>

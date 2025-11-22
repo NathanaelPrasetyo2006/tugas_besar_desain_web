@@ -8,8 +8,4 @@
   </header>
 </template>
 
-<script>
-export default {
-  name: 'TheHeader',
-}
-</script>
+<script setup></script>

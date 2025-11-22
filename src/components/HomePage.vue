@@ -67,15 +67,8 @@
   </div>
 </template>
 
-<script>
+<script setup>
 import TheCard from './TheCard.vue'
-
-export default {
-  name: 'HomePage',
-  components: {
-    TheCard,
-  },
-}
 </script>
 
 <style scoped></style>
