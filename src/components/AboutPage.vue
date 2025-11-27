@@ -39,9 +39,9 @@
       </div>
     </div>
 
-    <div class="flex flex-col md:flex-row gap-12 items-start">
+    <div class="grid grid-cols-2 gap-12 items-start">
       <!-- Maps -->
-      <div class="w-full md:w-1/2">
+      <div>
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126912.67429151542!2d106.790497!3d-6.200000!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f5f3acaefdff%3A0x6c14d6dfeadc182f!2sJakarta!5e0!3m2!1sid!2sid!4v1699733333333"
           class="w-full h-64 rounded-xl shadow"
@@ -50,7 +50,7 @@
         ></iframe>
       </div>
 
-      <div class="w-full md:w-1/2 space-y-4">
+      <div class="space-y-4">
         <h3 class="text-2xl font-semibold">Kontak</h3>
         <div class="border-t"></div>
         <p class="text-xl">Alamat: Jalan Kemerdekaan No. 45, Jakarta</p>
