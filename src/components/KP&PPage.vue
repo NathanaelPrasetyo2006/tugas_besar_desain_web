@@ -1,5 +1,5 @@
 <template>
-  <div class="kebijakanpengembalianpembatalan mx-6 my-4">
+  <div class="mx-6 my-4">
     <h1 class="text-2xl font-bold">KEBIJAKAN PENGEMBALIAN DAN PEMBATALAN</h1>
   </div>
   <div class="mx-6 my-4">

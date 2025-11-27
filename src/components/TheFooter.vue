@@ -1,16 +1,18 @@
 <template>
   <footer class="bg-[#FFDDAE] text-black py-6">
     <!-- Bagian 2 kolom -->
-    <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-80 px-10">
+    <div
+      class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-40 lg:gap-60 px-6 md:px-10"
+    >
       <!-- Kolom kiri -->
       <div>
-        <div class="flex items-center mb-2">
-          <img src="../assets/logo.png" class="w-5 h-5 mr-2" alt="Logo Buaya Bakery" />
-          <h2 class="font-semibold text-lg">Buaya Bakery</h2>
+        <div class="flex items-center mb-3">
+          <img src="../assets/logo.png" class="w-6 h-6 mr-2" alt="Logo Buaya Bakery" />
+          <h2 class="font-semibold text-lg md:text-xl">Buaya Bakery</h2>
         </div>
 
         <!-- WhatsApp -->
-        <div class="flex items-center mb-1">
+        <div class="flex items-center mb-2 text-base md:text-lg">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="currentColor"
@@ -25,7 +27,7 @@
         </div>
 
         <!-- Email -->
-        <div class="flex items-center mb-1">
+        <div class="flex items-center mb-2 text-base md:text-lg">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="currentColor"
@@ -40,7 +42,7 @@
         <!-- Instagram -->
         <a
           @click.prevent="showPopup = true"
-          class="flex items-center mt-2 text-blue-700 hover:underline cursor-pointer"
+          class="flex items-center mt-3 text-blue-700 hover:underline cursor-pointer text-base md:text-lg"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -75,8 +77,8 @@
 
       <!-- Kolom kanan -->
       <div>
-        <h2 class="font-semibold text-lg mb-2">FAQ</h2>
-        <ul class="space-y-1">
+        <h2 class="font-semibold text-lg md:text-xl mb-3">FAQ</h2>
+        <ul class="space-y-1 text-base md:text-lg">
           <li>
             <router-link
               to="/kebijakanpengembaliandanpembatalan"
@@ -102,7 +104,7 @@
     <div class="border-t border-gray-300 my-4"></div>
 
     <!-- Bagian bawah center -->
-    <div class="text-center text-sm">© 2025 Buaya Bakery. All Rights Reserved.</div>
+    <div class="text-center text-sm md:text-base">© 2025 Buaya Bakery. All Rights Reserved.</div>
   </footer>
 </template>
 
@@ -113,6 +115,6 @@ import ThePopUp from './ThePopUp.vue'
 const showPopup = ref(false)
 
 function bukaInstagram() {
-  window.open('https://www.instagram.com/buayabakery/', '_blank')
+  window.open('https://www.instagram.com/', '_blank')
 }
 </script>

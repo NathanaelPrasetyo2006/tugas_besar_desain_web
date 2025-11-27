@@ -1,8 +1,8 @@
 <template>
-  <div class="flex items-center">
+  <div class="flex flex-wrap items-center gap-2 sm:gap-4">
     <router-link
       to="/produk"
-      class="text-gray-700 text-xl font-medium hover:text-blue-600 transition duration-200"
+      class="text-gray-700 text-base sm:text-lg md:text-xl font-medium hover:text-blue-600 transition duration-200"
       active-class="text-blue-700 border-b-2 border-blue-700 pb-1"
     >
       Produk
@@ -10,7 +10,7 @@
     <Menu as="div" class="relative inline-block">
       <MenuButton
         :class="[
-          'inline-flex w-full justify-center gap-x-1.5 rounded-md bg-white/10 px-3 py-2 text-sm font-semibold text-white inset-ring-1 inset-ring-white/5 hover:bg-blue-600/20',
+          'inline-flex justify-center gap-x-1.5 rounded-md px-3 py-2 text-sm font-semibold text-white bg-transparent hover:bg-gray-300 transition w-full sm:w-auto',
           $route.path !== '/produk' ? 'pointer-events-none opacity-20' : '',
         ]"
       >
@@ -26,14 +26,14 @@
         leave-to-class="transform opacity-0 scale-95"
       >
         <MenuItems
-          class="absolute right-0 z-10 mt-2 w-56 origin-top-right rounded-md bg-gray-800 outline-1 -outline-offset-1 outline-white/10"
+          class="absolute right-0 sm:right-0 z-10 mt-2 w-44 sm:w-56 origin-top-right rounded-md bg-gray-800 shadow-lg ring-1 ring-white/10 focus:outline-none"
         >
           <div class="py-1">
             <MenuItem v-slot="{ active }">
               <a
                 href="#RotiSpesial"
                 :class="[
-                  active ? 'bg-white/5 text-white outline-hidden' : 'text-gray-300',
+                  active ? 'bg-white/5 text-white' : 'text-gray-300',
                   'block px-4 py-2 text-sm',
                 ]"
                 >Roti Spesial</a
@@ -43,7 +43,7 @@
               <a
                 href="#RotiAsinGurih"
                 :class="[
-                  active ? 'bg-white/5 text-white outline-hidden' : 'text-gray-300',
+                  active ? 'bg-white/5 text-white' : 'text-gray-300',
                   'block px-4 py-2 text-sm',
                 ]"
                 >Roti Asin/Gurih</a
@@ -53,7 +53,7 @@
               <a
                 href="#RotiManis"
                 :class="[
-                  active ? 'bg-white/5 text-white outline-hidden' : 'text-gray-300',
+                  active ? 'bg-white/5 text-white' : 'text-gray-300',
                   'block px-4 py-2 text-sm',
                 ]"
                 >Roti Manis</a
@@ -63,7 +63,7 @@
               <a
                 href="#RotiTawar"
                 :class="[
-                  active ? 'bg-white/5 text-white outline-hidden' : 'text-gray-300',
+                  active ? 'bg-white/5 text-white' : 'text-gray-300',
                   'block px-4 py-2 text-sm',
                 ]"
                 >Roti Tawar</a

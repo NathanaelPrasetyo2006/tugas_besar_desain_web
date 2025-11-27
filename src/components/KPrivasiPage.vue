@@ -1,5 +1,5 @@
 <template>
-  <div class="kprivasi mx-6 my-4">
+  <div class="mx-6 my-4">
     <h1 class="text-2xl font-bold mb-4">Kebijakan Privasi</h1>
     <p class="text-xl">
       Buaya Bakery menghargai privasi Anda dan berkomitmen untuk melindungi informasi pribadi yang

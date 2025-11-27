@@ -1,5 +1,5 @@
 <template>
-  <div class="syaratketentuan mx-6 my-4">
+  <div class="mx-6 my-4">
     <h1 class="text-2xl font-bold">SYARAT DAN KETENTUAN (S&K)</h1>
   </div>
   <div class="mx-6 my-4">
