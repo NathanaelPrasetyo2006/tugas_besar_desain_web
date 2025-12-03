@@ -69,39 +69,32 @@
   </div>
   <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-6 p-6">
     <TheCard image="/src/assets/Roti Cokelat.png" title="Roti Cokelat" description="Rp. 15.000" />
-
     <TheCard image="/src/assets/Roti Keju.png" title="Roti Keju" description="Rp. 15.000" />
-
     <TheCard
       image="/src/assets/Roti Cokelat Keju.png"
       title="Roti Cokelat Keju"
       description="Rp. 15.000"
     />
-
     <TheCard
       image="/src/assets/Roti Isi Srikaya.png"
       title="Roti Isi Srikaya"
       description="Rp. 13.000"
     />
-
     <TheCard
       image="/src/assets/Roti Kacang Hijau.png"
       title="Roti Kacang Hijau"
       description="Rp. 12.000"
     />
-
     <TheCard
       image="/src/assets/Roti Kacang Merah.png"
       title="Roti Kacang Merah"
       description="Rp. 12.000"
     />
-
     <TheCard
       image="/src/assets/Roti Pisang Cokelat.png"
       title="Roti Pisang Cokelat"
       description="Rp. 12.000"
     />
-
     <TheCard
       image="/src/assets/Roti Pisang Keju.png"
       title="Roti Pisang Keju"
@@ -113,25 +106,21 @@
   </div>
   <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-6 p-6">
     <TheCard image="/src/assets/Roti Tawar.png" title="Roti Tawar" description="Rp. 15.000" />
-
     <TheCard
       image="/src/assets/Roti Tawar Gandum.png"
       title="Roti Tawar Gandum"
       description="Rp. 15.000"
     />
-
     <TheCard
       image="/src/assets/Roti Tawar Kismis.png"
       title="Roti Tawar Kismis"
       description="Rp. 15.000"
     />
-
     <TheCard
       image="/src/assets/Roti Tawar Keju.png"
       title="Roti Tawar Keju"
       description="Rp. 15.000"
     />
-
     <TheCard
       image="/src/assets/Roti Tawar Pandan.png"
       title="Roti Tawar Pandan"
