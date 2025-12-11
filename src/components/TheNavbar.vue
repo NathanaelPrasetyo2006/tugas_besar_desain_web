@@ -35,8 +35,8 @@
             />
           </svg>
         </button>
+
         <div>
-          <!-- Beranda -->
           <router-link
             v-if="activePage === 'beranda'"
             to="/"
@@ -45,10 +45,8 @@
             Beranda
           </router-link>
 
-          <!-- Produk = Dropdown Komponen yang SAMA seperti desktop -->
           <the-drop-down v-if="activePage === 'produk'" mobile />
 
-          <!-- Cara Pesan -->
           <router-link
             v-if="activePage === 'carapesan'"
             to="/carapesan"
@@ -57,7 +55,6 @@
             Cara Pesan
           </router-link>
 
-          <!-- Tentang Kami -->
           <router-link
             v-if="activePage === 'tentangkami'"
             to="/tentangkami"

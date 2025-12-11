@@ -1,17 +1,14 @@
 <template>
   <footer class="bg-[#FFDDAE] text-black py-6">
-    <!-- Bagian 2 kolom -->
     <div
       class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-40 lg:gap-60 px-6 md:px-10"
     >
-      <!-- Kolom kiri -->
       <div>
         <div class="flex items-center mb-3">
           <img src="../assets/logo.png" class="w-6 h-6 mr-2" alt="Logo Buaya Bakery" />
           <h2 class="font-semibold text-lg md:text-xl">Buaya Bakery</h2>
         </div>
 
-        <!-- WhatsApp -->
         <div class="flex items-center mb-2 text-base md:text-lg">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -26,7 +23,6 @@
           <span>WhatsApp: +62 878-8106-8967</span>
         </div>
 
-        <!-- Email -->
         <div class="flex items-center mb-2 text-base md:text-lg">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -39,7 +35,6 @@
           <span>Email: buayabakery@gmail.com</span>
         </div>
 
-        <!-- Instagram -->
         <a
           @click.prevent="showPopup = true"
           class="flex items-center mt-3 text-blue-700 hover:underline cursor-pointer text-base md:text-lg"
@@ -75,7 +70,6 @@
         />
       </div>
 
-      <!-- Kolom kanan -->
       <div>
         <h2 class="font-semibold text-lg md:text-xl mb-3">FAQ</h2>
         <ul class="space-y-1 text-base md:text-lg">
@@ -100,10 +94,8 @@
       </div>
     </div>
 
-    <!-- Garis pemisah -->
     <div class="border-t border-gray-300 my-4"></div>
 
-    <!-- Bagian bawah center -->
     <div class="text-center text-sm md:text-base">© 2025 Buaya Bakery. All Rights Reserved.</div>
   </footer>
 </template>

@@ -29,6 +29,7 @@
       description="Rp. 12.000"
     />
   </div>
+
   <div class="mx-6 my-4">
     <h1 class="text-2xl font-bold">Recommended</h1>
   </div>
@@ -53,6 +54,7 @@
       description="Rp. 15.000"
     />
   </div>
+
   <p class="text-center text-xl sm:text-2xl text-gray-700 max-w-3xl mx-6 sm:mx-auto mt-10">
     Terima kasih atas kepercayaan Anda! Berikut adalah pencapaian toko kami yang terus tumbuh setiap
     hari.
