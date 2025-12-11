@@ -6,7 +6,7 @@
           Nathanael Prasetyo
         </h1>
         <p class="text-lg md:text-xl text-uppercase text-center md:text-justify leading-relaxed">
-          NIM : 11241070 - Informatika - ITK
+          11241070 - Informatika - ITK
         </p>
         <p class="text-lg md:text-xl text-center md:text-justify leading-relaxed">
           Saya adalah seorang mahasiswa Institut Teknologi Kalimanntan dengan jurusan Informatika.
