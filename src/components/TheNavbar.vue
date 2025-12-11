@@ -62,6 +62,14 @@
           >
             Tentang Kami
           </router-link>
+
+          <router-link
+            v-if="activePage === 'aboutme'"
+            to="/aboutme"
+            class="text-lg font-medium text-gray-700 hover:text-blue-600"
+          >
+            About Me
+          </router-link>
         </div>
       </div>
 
@@ -91,6 +99,14 @@
         >
           Tentang Kami
         </router-link>
+
+        <router-link
+          to="/aboutme"
+          class="text-gray-700 text-xl font-medium hover:text-blue-600 transition duration-200"
+          active-class="text-blue-700 border-b-2 border-blue-700 pb-1"
+        >
+          About Me
+        </router-link>
       </div>
     </div>
 
@@ -103,6 +119,8 @@
         <router-link @click="closeMenu" to="/carapesan">Cara Pesan</router-link>
 
         <router-link @click="closeMenu" to="/tentangkami">Tentang Kami</router-link>
+
+        <router-link @click="closeMenu" to="/aboutme">About Me</router-link>
       </div>
     </transition>
   </nav>
@@ -125,6 +143,7 @@ const activePage = computed(() => {
   if (route.path.startsWith('/produk')) return 'produk'
   if (route.path === '/carapesan') return 'carapesan'
   if (route.path === '/tentangkami') return 'tentangkami'
+  if (route.path === '/aboutme') return 'aboutme'
   return null
 })
 </script>

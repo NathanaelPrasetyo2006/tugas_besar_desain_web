@@ -6,6 +6,7 @@ import OrderPage from '@/components/OrderPage.vue'
 import KPPPage from '@/components/KP&PPage.vue'
 import SKPage from '@/components/S&KPage.vue'
 import KPrivasiPage from '@/components/KPrivasiPage.vue'
+import AboutMe from '@/components/AboutMe.vue'
 
 const routes = [
   {
@@ -42,6 +43,11 @@ const routes = [
     path: '/kebijakanprivasi',
     name: 'kebijakan privasi',
     component: KPrivasiPage,
+  },
+  {
+    path: '/aboutme',
+    name: 'about me',
+    component: AboutMe,
   },
 ]
 
