@@ -73,7 +73,7 @@
         </div>
       </div>
 
-      <div class="hidden md:flex space-x-24 items-center mx-auto">
+      <div class="hidden md:flex space-x-12 lg:space-x-24 items-center mx-auto">
         <router-link
           to="/"
           class="text-gray-700 text-xl font-medium hover:text-blue-600 transition duration-200"
